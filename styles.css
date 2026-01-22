@@ -38,7 +38,7 @@ body {
 	min-width: 560px;
 
 	color: white;
-	background-image: url("/assets/aboutme.svg");
+	background-image: url("https://raw.githubusercontent.com/skidzers/skidzers.github.io/72d161a79818b41f97b0e8717892c1d9365db441/assets/aboutme.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 60%;
