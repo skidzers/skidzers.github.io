@@ -1,0 +1,60 @@
+* {
+        margin: 0;
+        padding: 0;
+
+        box-sizing: border-box;
+      }
+
+img {
+        image-rendering: auto;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+        image-rendering: -webkit-optimize-contrast;
+      }
+
+body {
+	background-color: #3c454eff;
+}
+
+/*----Containers----*/
+.banner {
+	text-align: left;
+
+	position: relative;
+	min-height: 1vh;
+	padding: 1vh;
+
+	background-color: #23292fff;
+}
+
+.aboutme {
+	text-align: center;
+	position: relative;
+	
+	margin: 2rem auto 16%;
+
+	padding: 10rem;
+	width: 40%;
+	min-width: 560px;
+
+	color: white;
+	background-image: url("./assets/aboutme.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+
+.badges {
+	text-align: center;
+
+	position: relative;
+	padding: 0 1 1;
+
+	background: green;
+}
+
+@media {max-width: 768px} {
+	.aboutme {
+		min-height: 100px;
+		}
+}
