@@ -5,8 +5,8 @@
         box-sizing: border-box;
       }
 @font-face {
-        font-family: Pixmachine;
-        src: url(/assets/fonts/Pixmachina.ttf);
+        font-family: Dina;
+        src: url(./fonts/DinaRemasterII.ttc);
       }
 
 
@@ -24,7 +24,7 @@ body {
 /*----Containers----*/
 .aboutme {
 	z-index: 1;
-	font-family: Pixmachina;
+	font-family: Dina;
 
 	text-align: center;
 	position: absolute;
