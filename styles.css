@@ -19,6 +19,8 @@ img {
 
 body {	
 	background-color: #3c454eff;
+	background-image: url("/assets/bg.png");
+	background-repeat: repeat;
 }
 
 /*----Containers----*/
