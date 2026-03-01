@@ -27,6 +27,7 @@ body {
 /*----Containers----*/
 .aboutme {
 	z-index: 1;
+	font-family: Pixmachina;
 		
 	display: flex;
 	flex-direction: column;
@@ -43,10 +44,36 @@ body {
 	background-color: #23292f;
 }
 
+.links {
+	z-index: 1;
+
+	position: fixed;
+	top: 33.5%;
+	left: 12%;
+	right: 12%;
+
+	padding: 10px;
+
+	color: white;
+	background-color: #23292f;
+}
+
+.flex {
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+a:hover,
+a:link,
+a:active,
+a:visited {
+	color: white;
+}
+
+
 .yap {
 	z-index: 1;
-	font-family: bub;
-	font-size: 300%;
 	
 	display: flex;
 	flex-direction: column;
@@ -56,10 +83,14 @@ body {
 	
 	padding: 10px;
 	min-width: 100%;
-	min-height: 20rem;
 
 	color: white;
 	background-color: #23292f;
+}
+
+
+h3 {
+	padding-bottom: 10px;
 }
 
 /*-----Images----*/
@@ -83,10 +114,14 @@ body {
 	bottom: 100%;	
 }
 
-.lol {
-	position: fixed;
-	right: 0;
-	bottom: 0;
+.flexrow {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.lol,
+.row2 {
+	text-align: right;
 }
 
 /*----Media----*/
@@ -113,3 +148,4 @@ body {
 
 }
 }
+
