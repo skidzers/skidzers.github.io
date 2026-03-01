@@ -27,7 +27,7 @@ body {
 /*----Containers----*/
 .aboutme {
 	z-index: 1;
-	font-family: Pixmachina;
+	font-family: bub;
 		
 	display: flex;
 	flex-direction: column;
