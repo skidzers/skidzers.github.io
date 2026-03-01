@@ -75,7 +75,7 @@ a:visited {
 .yap {
 	z-index: 1;
 	font-family: bub;
-	font-size: 20;
+	font-size: 32px;
 	
 	display: flex;
 	flex-direction: column;
