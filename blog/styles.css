@@ -1,0 +1,117 @@
+* {
+        margin: 0;
+        padding: 0;
+
+        box-sizing: border-box;
+      }
+@font-face {
+        font-family: bub;
+        src: url(/fonts/bub2.ttf);
+      }
+
+
+img {
+        image-rendering: auto;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+        image-rendering: -webkit-optimize-contrast;
+      }
+
+body {	
+	background-color: #3c454eff;
+	background-image: url("/assets/bg.png");
+	background-repeat: repeat;
+	background-size: 3rem;
+}
+
+/*----Containers----*/
+.aboutme {
+	z-index: 1;
+	font-family: bub;
+		
+	display: flex;
+	flex-direction: column;
+
+	text-align: left;
+	position: relative;
+
+
+	padding: 10rem 10 0;
+	min-width: 60rem;
+	min-height: 20rem;
+
+	color: white;
+	background-color: #23292f;
+}
+
+.links {
+	z-index: 1;
+
+	position: fixed;
+	top: 33.5%;
+	left: 12%;
+	right: 12%;
+
+	padding: 10px;
+
+	color: white;
+	background-color: #23292f;
+}
+
+.flex {
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+a:hover,
+a:link,
+a:active,
+a:visited {
+	color: white;
+}
+
+h3 {
+	padding-bottom: 10px;
+}
+
+/*-----Images----*/
+.header {
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	bottom: -50px;
+}
+
+.edge {
+	position: absolute;
+	left: 0;
+	bottom: -16%;
+
+}
+
+/*----Media----*/
+@media (max-width: 720px) {
+
+	.aboutme {
+		min-width: 30rem;
+		min-height: 10rem;
+	}
+
+	.header {
+		z-index: 1;
+		position: absolute;
+		left: 0;
+		bottom: -50px;
+	
+		min-width: 30%;
+	}
+
+.edge {
+	position: absolute;
+	left: 0;
+	bottom: -29%;
+
+}
+}
+
