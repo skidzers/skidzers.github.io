@@ -38,7 +38,7 @@ body {
 
 	padding: 10rem 10 0;
 	min-width: 60rem;
-	min-height: 20rem;
+	min-height: 10rem;
 
 	color: white;
 	background-color: #23292f;
@@ -48,9 +48,10 @@ body {
 	z-index: 1;
 
 	position: fixed;
-	top: 33.5%;
+	top: 20%;
 	left: 12%;
 	right: 12%;
+	bottom: 0;
 
 	padding: 10px;
 
@@ -80,7 +81,7 @@ h3 {
 	z-index: 1;
 	position: absolute;
 	left: 0;
-	bottom: -50px;
+	bottom: -20px;
 }
 
 .edge {
