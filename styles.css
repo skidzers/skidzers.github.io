@@ -149,5 +149,20 @@ h3 {
 	bottom: -29%;
 
 }
+
+.links {
+	position: fixed;
+	top: 25%;
+}
+
+.yap {
+	height: 200px;
+}
+
+.lol,
+.row2 {
+	visibility: hidden;
+}
+
 }
 
