@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+img {
+        image-rendering: auto;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+        image-rendering: -webkit-optimize-contrast;
+}
+
+@font-face {
+    font-family: kirsch;
+    src: url(./asset/font/kirsch.Propo.ttf);
+}
+
+body {
+    font-family: kirsch;
+    font-size: 20px;
+    color: #c0c8cf;
+    background-color: #1c2023;
+    z-index: 1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    height: 60px;
+
+    color: #c0c8cf;
+    background-color: #252a2d;
+}
+
+.content {
+    z-index: inherit;
+    position: fixed;
+    right: 1%;
+    bottom: 0;
+    align-items: flex-end;
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+
+    margin: 1% auto;
+
+    width: 100%;
+    gap: 10px;
+}
+
+.AboutMe {
+
+    width: 24rem;
+    height: 24rem;
+
+    text-align: center;
+    font-size: inherit;
+    line-height: 30px;
+
+    padding: 1rem 0;
+    
+    background-color: #252a2d;
+
+    mask-image: url(./asset/bg/AboutMe.svg);
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+}
+
+
+.pfp {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    overflow: hidden;
+}
+
+.border-left {
+    margin: 10px;
+    padding: 10px;
+    border-style: double;
+    border-width: 10px;
+
+    border-color: #3a4044;
+}
+
+.sidebar {
+    
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+
+    height: 100rem;
+    max-height: 24.1rem;
+
+    width: 100rem;
+    max-width: 13rem;
+
+    background-color: #252a2d;
+
+    padding: 1rem 0;
+
+    mask-image: url(./asset/bg/Links.svg);
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+}
+
+.buttons {
+    position: fixed;
+    left: 1%;
+    bottom: 0%;
+    align-items: flex-start;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    width: 100% auto;
+    max-width: 700px;
+    margin: 1% auto;
+    background-color: #252a2d;
+}
+
+/*Test buttons*/
+
+h5 {
+    line-height: normal;
+}
+
+.page {
+    font-size: 21px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transition:
+    cubic-bezier(0.075, 0.82, 0.165, 1)
+            background-color 1s;
+    animation-delay: 0ms;
+
+    margin: 26% auto;
+    height: 100%;
+    max-height: 12%;
+    width: 100%;
+    max-width: 80%;
+
+    background-color: #2e3438;
+}
+
+.page:hover {
+    color: #1c2023;
+    background-color: #c2bf88;
+}
