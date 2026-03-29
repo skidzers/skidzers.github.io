@@ -38,10 +38,9 @@ body {
 .content {
     z-index: inherit;
     position: fixed;
-    right: 1%;
+    right: 2%;
     bottom: 0;
     align-items: flex-end;
-    flex-direction: row;
     display: flex;
     justify-content: right;
 
@@ -74,7 +73,7 @@ body {
     border-radius: 100%;
     width: 200px;
     height: 200px;
-    object-fit:cover;
+    object-fit: cover;
     overflow: hidden;
 }
 
@@ -101,7 +100,7 @@ body {
 
     background-color: #252a2d;
 
-    padding: 1rem 0;
+    padding: 1rem auto;
 
     mask-image: url(./asset/bg/Links.svg);
     mask-repeat: no-repeat;
@@ -150,4 +149,39 @@ h5 {
 .page:hover {
     color: #1c2023;
     background-color: #c2bf88;
+}
+
+/*phone thingamajig LMAOOO*/
+@media screen and (max-width: 600px) {
+    
+    .content {
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+        top: 0%;
+        gap: 1%;
+    }
+
+    .AboutMe {
+        width: 200%;
+        
+    }
+
+    .item {
+        align-items: center;
+        flex-direction: column;    
+        display: flex;
+        height: 80%;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .pfp {
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+        object-fit: cover;
+    }
 }
