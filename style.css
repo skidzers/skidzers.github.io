@@ -195,7 +195,8 @@ h5 {
     }
 
     .page {
-        height: 200%;
+        max-height: 40%;
+        margin: 10px auto;
     }
 
     .pfp {
@@ -203,5 +204,12 @@ h5 {
         height: 120px;
         overflow: hidden;
         object-fit: cover;
+    }
+
+    .buttons {
+        position: static;
+
+        margin: 1% auto;
+        max-width: 90%;
     }
 }
